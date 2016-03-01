@@ -5,7 +5,6 @@ package Lesson_01.Examples;
  */
 public class DataTypes {
 
-
     static class Point {
         int x, y;
 
@@ -63,7 +62,7 @@ public class DataTypes {
         // System.out.println("1 / (m - i)"+1 / (m - i)); // попробуем получить разность
         // значений int и long
 
-        double doubleV = 1 / 2;
+        double doubleV = (double)1 / 2;
         System.out.println("doubleV = " + doubleV);
 
         System.out.println(1000 * 60 * 60 * 24 * 7);
@@ -71,22 +70,22 @@ public class DataTypes {
         System.out.println(1000 * 60 * 60 * 24 * 30);
         // вычисление для месяца
 
-        System.out.println(1000 * 60 * 60 * 24 * 30L);
+        System.out.println(1000L * 60 * 60 * 24 * 30);
         // вычисление для месяца
 
 
         // пример вызовет ошибку компиляции
         int x1 = 1;
-        // byte b1=x;
+         byte b1 = (byte)x;
 
         // пример вызовет ошибку компиляции
         byte b2 = 1;
-        // byte c2=b2+1;
+        byte c2 = (byte)(b2+1);
 
         // пример вызовет ошибку компиляции
         int x3 = 2;
         long y3 = 3;
-        // int z3=x3+y3;
+        long z3 = x3+y3;
 
 
         // Итак, все числовые операторы возвращают результат типа int или long. Однако существует два исключения.
@@ -102,7 +101,7 @@ public class DataTypes {
         System.out.println("x7++ = " + x7++);  // на момент начала исполнения x равен 5
         System.out.println("x7-- = " + x7--); //на момент начала исполнения x равен 6
         System.out.println("++x7 = " + (++x7)); // на момент начала исполнения x равен 5
-        System.out.println("--X7 = " + (--x7));  // на момент начала исполнения x равен 6
+        System.out.println("--x7 = " + (--x7));  // на момент начала исполнения x равен 6
 
 
 //Этот пример иллюстрирует вопросы преобразования типов при вычислениях и случаи переполнения.
@@ -140,9 +139,9 @@ public class DataTypes {
         // Pассмотрим работу с типом char. Значения этого типа могут полноценно участвовать в числовых операциях:
 
         char c1 = 10;
-        char c2 = 'A';
+      //  char c2 = 'A';
         // латинская буква A (\u0041, код 65)
-        int i12 = c1 + c2 - 'B'; //Переменная i12 получит значение 9.
+      //  int i12 = c1 + c2 - 'B'; //Переменная i12 получит значение 9.
 
         char c13 = 'A';
         System.out.println(c13);
