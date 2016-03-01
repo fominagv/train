@@ -147,7 +147,7 @@ public class DataTypes {
         System.out.println(c13);
         System.out.println(c13 + 1);
         System.out.println("c13 = " + c13);
-        System.out.println('c' + '=' + c13);
+       // System.out.println('c' + '=' + c13);
 
         //В первом случае в метод println было передано значение типа char, поэтому отобразился символ.
         // Во втором случае был передан результат сложения, то есть число, и именно число появилось на экране.
