@@ -1,6 +1,6 @@
-package Lesson_01.Examples;
+package Lesson_02.Examples;
 
-import java.util.Scanner; // Bring in the scanner to read input
+import java.util.Scanner;
 
 public class InteractiveHello {
 

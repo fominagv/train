@@ -13,17 +13,14 @@
  *  Oops, my bad.
  *  Java, for the win!
  */
-package Lesson_01.Activities;
+package Lesson_02.Solutions;
 
 public class DebugThisJavaWTFJavaFTW {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-    // System.out.println "What the F-*bleep*, Java?";
-     //   System.out.print("Oops,")
-     //  System.out.printf("my bad.");
-     //   System.println("Java, for the win!");
+        System.out.println("What the F-*bleep*, Java?");
+        System.out.print("Oops, ");
+        System.out.printf("my bad.\n");
+        System.out.println("Java, for the win!");
     }
 }

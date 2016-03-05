@@ -10,9 +10,7 @@ Hello, Galyna Fomina!
 Or should I say: Galyna, Fomina!
 
 */
-package Lesson_01.Activities;
-
-import java.util.Scanner;
+package Lesson_02.Activities;
 
 public class HelloYourName2Ways {
 

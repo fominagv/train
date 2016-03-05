@@ -10,7 +10,7 @@ Hello, Galyna Fomina!
 Or should I say: Galyna, Fomina!
 
 */
-package Lesson_01.Solutions;
+package Lesson_02.Solutions;
 
 import java.util.Scanner;
 

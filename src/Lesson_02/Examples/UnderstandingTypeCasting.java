@@ -1,4 +1,4 @@
-package Lesson_01.Examples;
+package Lesson_02.Examples;
 
 public class UnderstandingTypeCasting {
 
