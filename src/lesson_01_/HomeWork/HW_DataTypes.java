@@ -1,4 +1,4 @@
-package Lesson_01.HomeWork;
+package lesson_01_.HomeWork;
 
 public class HW_DataTypes {
 
