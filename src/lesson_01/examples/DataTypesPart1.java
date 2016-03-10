@@ -1,4 +1,4 @@
-package lesson_01.examples_;
+package lesson_01.examples;
 
 /**
  * Created by galina on 2/28/16.
